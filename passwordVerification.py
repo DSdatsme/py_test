@@ -1,58 +1,32 @@
-import logging as logger
+def validate(userInput):
+    pwscore = 0
+    output = "Your password needs: \n"
+    if len(userInput) > 5:pwscore += 1
+    else:output+="add more characters \n"
 
-REQUIRED_SYMBOLS = "$#@"
+    if len(userInput) < 13: pwscore += 1
+    else:output+="remove characters \n"
 
+    if any(x.isupper() for x in userInput): pwscore +=1
+    else:output+="Add capital letters\n"
 
-def validate(s):
-    print(len(s))
-    if 5 < len(s):
-        logger.debug('Length lowerbound verified: %s', s)
-        if len(s) < 13:
-            logger.debug("checked length upper bound %s", s)
+    if any(x.islower() for x in userInput): pwscore +=1
+    else:output+="Add lowercase letters\n"
 
-            if lambda x: any(x.isupper() for x in s):
-                logger.debug("password contains uppercase")
+    if any(x.isdigit() for x in userInput): pwscore +=1
+    else:output+="Add numbers\n"
 
-                if lambda x: any(x.islower() for x in s):
-                    logger.debug("password contains lowercase")
+    '''if ['#','$','@'] in userInput: pwscore += 1
+    else:output+="Add symbols\n"'''
 
-                    if lambda x: any(x.isdigit() for x in s):
-                        logger.debug("password has a number")
-                    else:
-                        print("add a number and try again")
-                        return False
-
-                else:
-                    print("add a lowercase character, try again")
-                    return False
-            else:
-                print("add uppercase character and try again")
-                return False
-        else:
-            print("length of your password is too large, try again")
-            return False
+    if pwscore == 5:return True
     else:
-        print("length of your password is too small, try again")
+        print(output)
         return False
-
-
-
-
-    if not(any(True for x in s if x.isin(REQUIRED_SYMBOLS)[0])):
-        print("Add Symbols to your password and try again")
-        return False
-
-    return True
 
 def main():
-    isVerified = False
-    while not(isVerified):
-
-
-        s = raw_input("enter password")
-        isVerified = validate(s)
-    print("Password set sucessfully")
-
-if __name__== "__main__":
-    #s = raw_input("Enter a password: ")
+    isValidated = False
+    while not(isValidated):
+        isValidated = validate(raw_input("Enter a password: "))
+if __name__ == "__main__":
     main()

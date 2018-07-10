@@ -1,9 +1,13 @@
 import math
 
+
 class ElementNotFoundException(Exception):
     pass
+
+
 class NumberInvalidInputException(Exception):
     pass
+
 
 def binarySearch(elementList, firstIndex, lastIndex, searchElement):
     try:
@@ -27,16 +31,15 @@ def binarySearch(elementList, firstIndex, lastIndex, searchElement):
         print("Element Not found")
 
 
-myList = sorted([2,324,454,543,652,875])    #making sure they are sorted
+myList = sorted([2, 324, 454, 543, 652, 875])  # making sure they are sorted
 try:
-
 
     searchElement = raw_input("enter search element:")
     '''if math.isnan(searchElement):
         raise NumberInvalidInputException'''
 
-#function call here
+    # function call here
     binarySearch(myList, 0, len(myList) - 1, float(searchElement))
 
-except NumberInvalidInputException: #to check valid input
+except NumberInvalidInputException:  # to check valid input
     print("You should enter a number")
