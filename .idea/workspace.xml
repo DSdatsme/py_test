@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b246e5c9-203b-4b13-a42e-d3bcd9af403a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSONparser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TupleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/TupleSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/binSearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passwordVerification.py" beforeDir="false" afterPath="$PROJECT_DIR$/passwordVerification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frequencyCounter.py" beforeDir="false" afterPath="$PROJECT_DIR$/frequencyCounter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,20 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="passwordVerification.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passwordVerification.py">
+      <file leaf-file-name="frequencyCounter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frequencyCounter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="binSearch.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/binSearch.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="221">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -57,6 +43,7 @@
         <option value="$PROJECT_DIR$/JSONparser.py" />
         <option value="$PROJECT_DIR$/TupleSort.py" />
         <option value="$PROJECT_DIR$/binSearch.py" />
+        <option value="$PROJECT_DIR$/frequencyCounter.py" />
       </list>
     </option>
   </component>
@@ -98,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binSearch">
+  <component name="RunManager" selected="Python.frequencyCounter">
     <configuration name="JSONparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,24 +99,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JSONparser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ScrapFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ScrapFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,6 +140,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="frequencyCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frequencyCounter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="passwordVerification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,19 +177,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.ScrapFile" />
       <item itemvalue="Python.passwordVerification" />
       <item itemvalue="Python.binSearch" />
       <item itemvalue="Python.TupleSort" />
       <item itemvalue="Python.JSONparser" />
+      <item itemvalue="Python.frequencyCounter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.frequencyCounter" />
         <item itemvalue="Python.binSearch" />
         <item itemvalue="Python.TupleSort" />
         <item itemvalue="Python.JSONparser" />
         <item itemvalue="Python.passwordVerification" />
-        <item itemvalue="Python.ScrapFile" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +210,14 @@
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.17183952" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.17183952" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info id="Event Log" order="3" sideWeight="0.5008104" side_tool="true" visible="true" weight="0.17183952" />
+      <window_info id="Event Log" order="3" sideWeight="0.5013477" side_tool="true" visible="true" weight="0.17183952" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50075644" side_tool="true" weight="0.3987034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3987034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -311,17 +298,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/binSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/passwordVerification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
+        <state relative-caret-position="-111">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binSearch.py">
+    <entry file="file://$PROJECT_DIR$/frequencyCounter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="221">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
