@@ -1,0 +1,2 @@
+We have a for loop that runs over a range of 10 numbers.
+Using the write function to enter data into the file.So basically we are putting in the line number that we are writing, then putting it in a carriage return and a new line character
