@@ -38,17 +38,7 @@ def validate(s):
 
 
 
-
-
-
-
-
-
-
-    for i in [REQUIRED_SYMBOLS][0]:
-        if i in s:
-            print('symbol found')
-            break
+    if not(any(True for x in s if x.isin(REQUIRED_SYMBOLS)[0])):
         print("Add Symbols to your password and try again")
         return False
 

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b246e5c9-203b-4b13-a42e-d3bcd9af403a" name="Default" comment="" />
+    <list default="true" id="b246e5c9-203b-4b13-a42e-d3bcd9af403a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSONparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TupleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/TupleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/binSearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwordVerification.py" beforeDir="false" afterPath="$PROJECT_DIR$/passwordVerification.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,30 +17,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="passwordVerification.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passwordVerification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="-357">
               <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binSearch.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="binSearch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/binSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TupleSort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TupleSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="433">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -47,14 +45,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/emailVerification.py" />
         <option value="$PROJECT_DIR$/ScrapFile.py" />
-        <option value="$PROJECT_DIR$/binSearch.py" />
         <option value="$PROJECT_DIR$/passwordVerification.py" />
+        <option value="$PROJECT_DIR$/JSONparser.py" />
         <option value="$PROJECT_DIR$/TupleSort.py" />
+        <option value="$PROJECT_DIR$/binSearch.py" />
       </list>
     </option>
   </component>
@@ -64,6 +66,7 @@
     <option name="width" value="697" />
     <option name="height" value="738" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -95,7 +98,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TupleSort">
+  <component name="RunManager" selected="Python.binSearch">
+    <configuration name="JSONparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JSONparser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ScrapFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,12 +194,14 @@
       <item itemvalue="Python.passwordVerification" />
       <item itemvalue="Python.binSearch" />
       <item itemvalue="Python.TupleSort" />
+      <item itemvalue="Python.JSONparser" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TupleSort" />
-        <item itemvalue="Python.passwordVerification" />
         <item itemvalue="Python.binSearch" />
+        <item itemvalue="Python.TupleSort" />
+        <item itemvalue="Python.JSONparser" />
+        <item itemvalue="Python.passwordVerification" />
         <item itemvalue="Python.ScrapFile" />
       </list>
     </recent_temporary>
@@ -200,25 +223,25 @@
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918962" visible="true" weight="0.17183952" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3273906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.3987034" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info id="Event Log" order="3" sideWeight="0.5008104" side_tool="true" visible="true" weight="0.17183952" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50075644" side_tool="true" weight="0.3987034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.3987034" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -239,12 +262,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/passwordVerification.py</url>
-          <line>59</line>
+          <line>49</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/passwordVerification.py</url>
-          <line>58</line>
+          <line>48</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -252,31 +275,53 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ScrapFile.py">
+    <entry file="file://$PROJECT_DIR$/passwordVerification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="714">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="459">
           <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passwordVerification.py">
+    <entry file="file://$PROJECT_DIR$/TupleSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapFile.py" />
+    <entry file="file://$PROJECT_DIR$/JSONparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TupleSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passwordVerification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>

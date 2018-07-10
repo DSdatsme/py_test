@@ -1,28 +1,30 @@
 import math
 
-class ListInvalidInputException(Exception):
+class ElementNotFoundException(Exception):
     pass
 class NumberInvalidInputException(Exception):
     pass
 
 def binarySearch(elementList, firstIndex, lastIndex, searchElement):
-    mid = (firstIndex + lastIndex) / 2
+    try:
+        mid = (firstIndex + lastIndex) / 2
 
-    if (firstIndex > lastIndex):
-        print "Element not found"
+        if (firstIndex > lastIndex):
+            raise ElementNotFoundException
 
-    elif (searchElement > elementList[mid]):
-        firstIndex = mid + 1
-        binarySearch(elementList, firstIndex, lastIndex, searchElement)
+        elif (searchElement > elementList[mid]):
+            firstIndex = mid + 1
+            binarySearch(elementList, firstIndex, lastIndex, searchElement)
 
-    elif (searchElement < elementList[mid]):
-        lastIndex = mid - 1
-        binarySearch(elementList, firstIndex, lastIndex, searchElement)
+        elif (searchElement < elementList[mid]):
+            lastIndex = mid - 1
+            binarySearch(elementList, firstIndex, lastIndex, searchElement)
 
-    else:
-        print "element is present at index " + str(mid)
+        else:
+            print "element is present at index " + str(mid)
 
-
+    except ElementNotFoundException:
+        print("Element Not found")
 
 
 myList = sorted([2,324,454,543,652,875])    #making sure they are sorted
@@ -33,9 +35,8 @@ try:
     '''if math.isnan(searchElement):
         raise NumberInvalidInputException'''
 
-
+#function call here
     binarySearch(myList, 0, len(myList) - 1, float(searchElement))
-except ListInvalidInputException:
-    print("List elements contains wrong values")
-except NumberInvalidInputException:
+
+except NumberInvalidInputException: #to check valid input
     print("You should enter a number")
