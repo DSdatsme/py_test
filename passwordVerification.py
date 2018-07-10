@@ -26,13 +26,12 @@ def validate(userInput):
     else:
         output += "Add numbers\n"
 
-    if ("@" in userInput) or ("#" in userInput) or ("$" in userInput):
-        print("inside")
+    if ("@" in userInput or "#" in userInput or "$" in userInput):
         pwscore += 1
     else:
         output += "Add symbols\n"
 
-    if pwscore == 5:
+    if pwscore == 6:
         return True
     else:
         print(output)
